@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.box {
+  width: 400px;
+  margin: 0 auto;
+}
+.btn-light:hover{
+  background-color: #dfdfdf;
+}
+body{
+  background: #f5f5f5;
+}
+.use-effect{
+  text-align: center;
+  width: 400px;
+  margin: 30px auto;
+  background: #6494EC;
+  height: 300px;
+}
+
+.buttons button{
+  width: 80%;
+}
+
+.box button {
+  width: 100%;
+  margin-top: 15px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
